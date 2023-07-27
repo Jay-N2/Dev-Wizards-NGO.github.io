@@ -31,7 +31,7 @@ function Events() {
           <div style={{ justifyContent: "center", width: "100%" }}>
             <div className="car-sizing">
               <Carousel>
-                <Carousel.Item interval={5000} className="car-item">
+                <Carousel.Item interval={2500} className="car-item">
                   <img
                     src="https://images.unsplash.com/photo-1509099927777-1b8a87bc3b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFmcmljYW4lMjBjaGlsZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
                     className="d-block w-100"
@@ -45,7 +45,7 @@ function Events() {
                     </p>
                   </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={5000} className="car-item">
+                <Carousel.Item interval={2500} className="car-item">
                   <img
                     src="https://images.unsplash.com/photo-1582307811683-75b18a39ab71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhbiUyMGNoaWxkfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
                     className="d-block w-100"
@@ -61,7 +61,7 @@ function Events() {
                     </p>
                   </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item className="car-item">
+                <Carousel.Item interval={2500} className="car-item">
                   <img
                     src="https://images.unsplash.com/flagged/photo-1555251255-e9a095d6eb9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWZyaWNhbiUyMGNoaWxkfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
                     className="d-block w-100"
